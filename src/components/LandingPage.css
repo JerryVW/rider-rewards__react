@@ -1,0 +1,33 @@
+.landing-page {
+	background: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.5)
+		),
+		url(../images/Main_background.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 95vh;
+	background-attachment: fixed;
+	-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0% 85%);
+	clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0% 85%);
+}
+
+.container {
+	width: 1200px;
+	display: flex;
+	margin: 0 auto;
+	flex-direction: row;
+}
+
+.logo-container {
+	width: 33.33%;
+	background: transparent;
+	border: none;
+}
+
+.logo {
+	width: 90%;
+	height: 55px;
+	margin: 28px auto 0;
+}

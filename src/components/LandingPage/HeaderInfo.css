@@ -1,0 +1,24 @@
+.info-container {
+	width: 1200px;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.what-it-do {
+	color: white;
+}
+
+.what-it-do h1 {
+	font-style: italic;
+	font-weight: 400;
+	text-align: center;
+	font-size: 4rem;
+	margin: 0;
+}
+
+.what-it-do p {
+	font-size: 1.5rem;
+	text-align: center;
+	margin: 5px;
+}

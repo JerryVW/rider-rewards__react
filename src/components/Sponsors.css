@@ -1,0 +1,29 @@
+.brands-container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 75px 0;
+	text-align: center;
+}
+
+.brands-phrase {
+	font-size: 2.5rem;
+	margin-bottom: 35px;
+}
+
+.brands-phrase2 {
+	font-size: 2rem;
+	margin-bottom: 35px;
+}
+
+.brand-logos {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.brand-logo {
+	width: 150px;
+	height: 100px;
+	margin: 10px 0;
+}

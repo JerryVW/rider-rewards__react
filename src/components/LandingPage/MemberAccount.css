@@ -1,0 +1,42 @@
+.member-container {
+	width: 38.67%;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.account,
+.wish-list,
+.shopping-cart {
+	margin-top: 40px;
+}
+
+.shopping-cart {
+	margin-right: 12px;
+}
+
+.cart-count {
+	margin-left: 12px;
+	float: right;
+	width: 24px;
+	height: 28px;
+	background-color: red;
+	border-radius: 5px;
+	color: white;
+}
+
+.heart-beat,
+.user-circle {
+	color: red;
+	height: 24px;
+	width: 24px;
+	margin-left: 10px;
+}
+
+.member-essentials {
+	color: white;
+	font-size: 1.4rem;
+	background: transparent;
+	border: none;
+	font-family: 'Roboto Slab', serif;
+}

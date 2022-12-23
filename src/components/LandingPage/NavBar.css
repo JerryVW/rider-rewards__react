@@ -1,0 +1,62 @@
+.nav-container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+ul li {
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 1.1rem;
+	transition: all 0.4s ease;
+}
+
+.selection {
+	background: transparent;
+	text-decoration: none;
+	color: whitesmoke;
+	font-size: 1.2rem;
+	transition: all 0.4s ease;
+	border: none;
+	font-family: 'Roboto Slab', serif;
+	width: 120px;
+}
+
+.selection:focus {
+	outline: none;
+}
+
+a:hover,
+a:focus {
+	color: #00cec9;
+}
+
+option {
+	background-color: #00cec9;
+	color: black;
+}
+
+select option:hover {
+	color: #00cec9;
+}
+
+hr {
+	margin-top: 18px;
+	width: 100%;
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(
+		to right,
+		rgba(255, 255, 255, 0.15),
+		rgba(255, 255, 255, 1),
+		rgba(255, 255, 255, 0.15)
+	);
+}
